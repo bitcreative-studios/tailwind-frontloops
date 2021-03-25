@@ -39,8 +39,8 @@ const cardData = [
   },
 ]
 
-export const WithFlexBox = Template.bind({})
+export const Solution = Template.bind({})
 
-WithFlexBox.args = {
+Solution.args = {
   cards: cardData,
 }
