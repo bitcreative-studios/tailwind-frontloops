@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
+.avatar {
+  @apply transition duration-150;
+  box-shadow: 0 0 0 1px transparent;
+}
+
+.avatar:hover {
+  box-shadow: 0 0 0 4px #f3f0f0;
+}
+
+.invoice {
+  min-height: 450px;
+}
 @tailwind utilities;
